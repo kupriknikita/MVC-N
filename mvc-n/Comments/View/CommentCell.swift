@@ -6,4 +6,12 @@
 //  Copyright © 2019 Nikita Kuprik. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class CommentCell: UITableViewCell {
+    
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var textView: UITextView!
+    
+}
+

@@ -13,6 +13,7 @@
 		A8DCC18F2309AD840051BC42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DCC18E2309AD840051BC42 /* Assets.xcassets */; };
 		A8DCC1922309AD840051BC42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DCC1902309AD840051BC42 /* LaunchScreen.storyboard */; };
 		A8DCC1A32309B3C10051BC42 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DCC1A22309B3C10051BC42 /* CommentCell.swift */; };
+		A8DCC1A52309B53F0051BC42 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DCC1A42309B53F0051BC42 /* Comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A8DCC1912309AD840051BC42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8DCC1932309AD840051BC42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8DCC1A22309B3C10051BC42 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		A8DCC1A42309B53F0051BC42 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		A8DCC1A02309AF530051BC42 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A8DCC1A42309B53F0051BC42 /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				A8DCC18A2309AD820051BC42 /* CommentsViewController.swift in Sources */,
 				A8DCC1882309AD820051BC42 /* AppDelegate.swift in Sources */,
 				A8DCC1A32309B3C10051BC42 /* CommentCell.swift in Sources */,
+				A8DCC1A52309B53F0051BC42 /* Comment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
