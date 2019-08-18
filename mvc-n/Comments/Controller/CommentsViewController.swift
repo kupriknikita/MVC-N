@@ -14,6 +14,10 @@ class CommentsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        NetworkService.shared.getData { (json) in
+            
+        }
     }
 
 
